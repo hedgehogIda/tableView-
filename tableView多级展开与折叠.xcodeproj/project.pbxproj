@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		9865CB411DC877F00065C72F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9865CB401DC877F00065C72F /* main.m */; };
 		9865CB441DC877F00065C72F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9865CB431DC877F00065C72F /* AppDelegate.m */; };
-		9865CB471DC877F00065C72F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9865CB461DC877F00065C72F /* ViewController.m */; };
-		9865CB4A1DC877F00065C72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9865CB481DC877F00065C72F /* Main.storyboard */; };
 		9865CB4C1DC877F00065C72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9865CB4B1DC877F00065C72F /* Assets.xcassets */; };
-		9865CB4F1DC877F00065C72F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9865CB4D1DC877F00065C72F /* LaunchScreen.storyboard */; };
 		9865CB5A1DC877F00065C72F /* tableView_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9865CB591DC877F00065C72F /* tableView_______Tests.m */; };
 		9865CB651DC877F00065C72F /* tableView_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9865CB641DC877F00065C72F /* tableView_______UITests.m */; };
+		9865CB751DC878A10065C72F /* IdaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9865CB731DC878A10065C72F /* IdaTableViewController.m */; };
+		9865CB791DC879AA0065C72F /* IdaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9865CB781DC879AA0065C72F /* IdaTableViewCell.m */; };
+		9865CB7C1DC879FD0065C72F /* itemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9865CB7B1DC879FD0065C72F /* itemModel.m */; };
+		9865CB7F1DC87EE00065C72F /* ItemData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9865CB7E1DC87EE00065C72F /* ItemData.m */; };
+		9865CB811DC896800065C72F /* IdaTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9865CB801DC896800065C72F /* IdaTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +41,7 @@
 		9865CB401DC877F00065C72F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9865CB421DC877F00065C72F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9865CB431DC877F00065C72F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9865CB451DC877F00065C72F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9865CB461DC877F00065C72F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9865CB491DC877F00065C72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9865CB4B1DC877F00065C72F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9865CB4E1DC877F00065C72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9865CB501DC877F00065C72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9865CB551DC877F00065C72F /* tableView多级展开与折叠Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tableView多级展开与折叠Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9865CB591DC877F00065C72F /* tableView_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "tableView_______Tests.m"; sourceTree = "<group>"; };
@@ -51,6 +49,15 @@
 		9865CB601DC877F00065C72F /* tableView多级展开与折叠UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tableView多级展开与折叠UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9865CB641DC877F00065C72F /* tableView_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "tableView_______UITests.m"; sourceTree = "<group>"; };
 		9865CB661DC877F00065C72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9865CB721DC878A10065C72F /* IdaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdaTableViewController.h; sourceTree = "<group>"; };
+		9865CB731DC878A10065C72F /* IdaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdaTableViewController.m; sourceTree = "<group>"; };
+		9865CB771DC879AA0065C72F /* IdaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdaTableViewCell.h; sourceTree = "<group>"; };
+		9865CB781DC879AA0065C72F /* IdaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdaTableViewCell.m; sourceTree = "<group>"; };
+		9865CB7A1DC879FD0065C72F /* itemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itemModel.h; sourceTree = "<group>"; };
+		9865CB7B1DC879FD0065C72F /* itemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = itemModel.m; sourceTree = "<group>"; };
+		9865CB7D1DC87EE00065C72F /* ItemData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemData.h; sourceTree = "<group>"; };
+		9865CB7E1DC87EE00065C72F /* ItemData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemData.m; sourceTree = "<group>"; };
+		9865CB801DC896800065C72F /* IdaTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IdaTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +110,16 @@
 			children = (
 				9865CB421DC877F00065C72F /* AppDelegate.h */,
 				9865CB431DC877F00065C72F /* AppDelegate.m */,
-				9865CB451DC877F00065C72F /* ViewController.h */,
-				9865CB461DC877F00065C72F /* ViewController.m */,
-				9865CB481DC877F00065C72F /* Main.storyboard */,
+				9865CB7A1DC879FD0065C72F /* itemModel.h */,
+				9865CB7B1DC879FD0065C72F /* itemModel.m */,
+				9865CB7D1DC87EE00065C72F /* ItemData.h */,
+				9865CB7E1DC87EE00065C72F /* ItemData.m */,
+				9865CB721DC878A10065C72F /* IdaTableViewController.h */,
+				9865CB731DC878A10065C72F /* IdaTableViewController.m */,
+				9865CB771DC879AA0065C72F /* IdaTableViewCell.h */,
+				9865CB781DC879AA0065C72F /* IdaTableViewCell.m */,
+				9865CB801DC896800065C72F /* IdaTableViewController.xib */,
 				9865CB4B1DC877F00065C72F /* Assets.xcassets */,
-				9865CB4D1DC877F00065C72F /* LaunchScreen.storyboard */,
 				9865CB501DC877F00065C72F /* Info.plist */,
 				9865CB3F1DC877F00065C72F /* Supporting Files */,
 			);
@@ -246,9 +258,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9865CB4F1DC877F00065C72F /* LaunchScreen.storyboard in Resources */,
+				9865CB811DC896800065C72F /* IdaTableViewController.xib in Resources */,
 				9865CB4C1DC877F00065C72F /* Assets.xcassets in Resources */,
-				9865CB4A1DC877F00065C72F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9865CB471DC877F00065C72F /* ViewController.m in Sources */,
+				9865CB7F1DC87EE00065C72F /* ItemData.m in Sources */,
 				9865CB441DC877F00065C72F /* AppDelegate.m in Sources */,
+				9865CB7C1DC879FD0065C72F /* itemModel.m in Sources */,
+				9865CB751DC878A10065C72F /* IdaTableViewController.m in Sources */,
+				9865CB791DC879AA0065C72F /* IdaTableViewCell.m in Sources */,
 				9865CB411DC877F00065C72F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,25 +323,6 @@
 			targetProxy = 9865CB611DC877F00065C72F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9865CB481DC877F00065C72F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9865CB491DC877F00065C72F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9865CB4D1DC877F00065C72F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9865CB4E1DC877F00065C72F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9865CB671DC877F00065C72F /* Debug */ = {
@@ -505,6 +500,7 @@
 				9865CB6B1DC877F00065C72F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9865CB6C1DC877F00065C72F /* Build configuration list for PBXNativeTarget "tableView多级展开与折叠Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +509,7 @@
 				9865CB6E1DC877F00065C72F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9865CB6F1DC877F00065C72F /* Build configuration list for PBXNativeTarget "tableView多级展开与折叠UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +518,7 @@
 				9865CB711DC877F00065C72F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

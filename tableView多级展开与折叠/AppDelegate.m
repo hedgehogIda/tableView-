@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "IdaTableViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    IdaTableViewController *idaVC = [[IdaTableViewController alloc]initWithNibName:@"IdaTableViewController" bundle:nil];
+    self.window.rootViewController = idaVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
